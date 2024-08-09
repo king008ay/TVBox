@@ -4,7 +4,7 @@ buildscript {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url "https://mvnrepository.com/" }
+        maven { url "https://mvnrepository.com/artifact" }
         maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
     }
     dependencies {
@@ -20,7 +20,7 @@ allprojects {
         gradlePluginPortal()
         google()
         mavenCentral()
-        maven { url "https://mvnrepository.com/" }
+        maven { url "https://mvnrepository.com/artifact" }
         maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
     }
 }
